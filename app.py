@@ -4,7 +4,8 @@ from textblob import TextBlob
 
 st.set_page_config(page_title="My AI Lab", page_icon=":brain:")
 
-st.title(":brain: AI for Sentiment Analysis")
+st.title("AI for Sentiment Analysis - CD TEST SUCCESS")
+st.markdown("### 🚀 This version deployed automatically via CD")
 st.write("Enter an English message in the box below, and AI will determine whether it's Positive or Negative ")
 
 text_input = st.text_area("Input Text (English only):", height=150)
